@@ -9,58 +9,14 @@ Le travail consiste à réaliser une application de gestion de sites avec une ap
 ### Fonctionnalités
 L’application est composée de deux parties  
 
-1) Application POO
-  Comme vous travaillerez en groupe, on vous demandera :
-    * de choisir un outil pour faire de la gestion de projet (diagrammes de Pert et de Gantt),
-    * d’utiliser git (pour gérer les versions de votre code et permettre un travail collaboratif) et
-éventuellement un outil d’intégration continue comme Jenkins ou GitLab CI.
-
-2) Analyse des besoins et modélisation
-On vous demandera un dossier d’analyse des besoins, comprenant le diagramme UML (réalisé avec le
-logiciel de votre choix) des cas d’utilisation ainsi qu’une description détaillée de ces cas sous forme de
-scenarii.
-
-3) Spécification fonctionnelle et tests
-A partir des scenarii identifiés précédemment, vous les détaillerez grâce à des diagrammes de séquence.
-Pour chaque scenario, vous devez faire une étude des tests fonctionnels à réaliser (tests boîte noire
-réalisables avec les méthodes des classes d’équivalence et des tests aux limites). Vous pourrez enfin réaliser
-des maquettes de l’IHM envisagée.
-
-4) Conception
-Vous terminerez la modélisation UML en réalisant au moins le diagramme de classes (et
-éventuellement les diagrammes d’activités et d’états-transition, si jugé utile à la compréhension du
-problème) et vous donnerez le modèle conceptuel des données (si vous utilisez 1 base de données).
+1) Application POO, Application de vente d'objets (jeux, jeux retro et autres) 
+  Cette partie concerne le développement de l'application vue en TD du gestionnaire d'un catalogue pour la vente de jeux et jeux reto enrichi avec la gestion d'au moins un autre type d'objet de votre choix. Un programme principal ( en mode console .net Framwork) devra permettre de tester les fonctionnalités des classes (y compris les comparaisons d'objets) et du gestionnaire
+  
+2) Application généricité ( Panier d'objets)
+Cette partie concerne le développement d'une application permettant de tester les concepts de généricité (Template) vus en TP. L'application devra permetre un panier <<générique>> (Panier<T>) avec des fonctionnalités d'ajout(sans double), de tri, et de suppression. Le panier sera implémenté en interne à l'aide d'un tableau générique (T tab []), sans utiliser les collections génériques des bibliothèques. Une taille Max pourra être imposée au tableau pour cet exemple, des messages d'erreur seront alors émis si le panier est plein.
+Une application principale devra permettre de tester les fonctionnalités avec au moins un panier de jeux (Classe <<Jeu>> développée en partie 1
 
 ### Autres
-   soutenances (9 – 12/01/2023) : préparer une présentation de 15 min comprenant :
- * une présentation du travail réalisé (avec démo),
- * un retour sur les outils utilisés :
- - pour réaliser l’interface web et la conservation des données,
- - dans le cadre du Génie Logiciel (GL) : avantages/inconvénients des outils choisis,
- difficultés rencontrées (organisation du groupe), améliorations à envisager
-
-
-### Partie Programmation
-
-Descriptif du contexte et travail à réaliser :
-### Fonctionnalités
-L’application est composée de deux parties :
-    • La partie Front end avec le framework Angular
-    • La partie Backend (optionnelle) qui permet de traiter les données avec une base de
-données. Vous pouvez aussi gérer les données avec des fichiers JSON.
-### Consignes techniques
-L’application d’e-commerce peut être structurée avec trois modules :
-    • Module racine créé par agular CLI
-    • Module recherche pour sélectionner les produits selon des critères de recherche
-    • Module Panier, qui permet de gérer le contenu du panier
-    • Le composant d’authentification dans le module principal gère l’authentification de
-l’internaute
-    •  Un composant par type de recherche dans le module recherche.
-
-### Bien expliquer les différents concepts dans votre projet :
-    • Les différents composants
-    • Databinding, les directives.
-    • La communication
-    • Les services
-    • Les routes internes
-10 au plus tard.
+* Le rapport devra contenir une partie descriptice de l'application (Cahier des charges) et une analyse sous forme de spécifications fonctionnelles détaillées pour l'application. Les ponts techniques que vous jugerez importants seront également expliqués plus en détails.
+le code devra être commenté
+* devra décrire la classe générique Panier<T> et les contraintes pour l'usage de cette classe et expliqer l'usage du panier pour la classe <<Jeu>>. Le code devra être commenté.
