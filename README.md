@@ -1,26 +1,23 @@
-# Projet
+https://onedrive.live.com/?authkey=%21AIXgUuZRqw5%5FrTo&cid=0FA353EA31907980&id=FA353EA31907980%21213554&parId=root&o=OneUp
 
+### Application de Gestion de Catalogue de Jeux
+## Description 
+ Ce projet consiste à développer une application de gestion de catalogue pour les jeux vidéo en utilisant Windows Forms. L'application permettra aux utilisateurs de gérer un catalogue de jeux de manière simple et efficace, sans nécessiter de backend ni de base de données.
 
-### Décembre 2020
-Objet : créer une application de gestion de site de jeu
-### Sujet
-Le travail consiste à réaliser une application de gestion de sites avec une application Windows Forms
+## Fonctionnalités :
 
-### Fonctionnalités
-L’application est composée de deux parties  
+# Ajout d’un Nouveau Jeu :
 
-1) Application POO, Application de vente d'objets (jeux, jeux retro et autres) 
+Les utilisateurs pourront ajouter un nouveau jeu au catalogue en saisissant des informations telles que le nom, le genre, la date de sortie, et d'autres détails pertinents à l'aide d'un formulaire.
+Suppression d’un Jeu :
 
+Il sera possible de supprimer un jeu existant du catalogue en le recherchant par son nom ou en le sélectionnant dans la liste des jeux affichés.
+Récupération de la Liste de Tous les Jeux :
 
-  Cette partie concerne le développement de l'application vue en TD du gestionnaire d'un catalogue pour la vente de jeux et jeux reto enrichi avec la gestion d'au moins un autre type d'objet de votre choix. Un programme principal ( en mode console .net Framwork) devra permettre de tester les fonctionnalités des classes (y compris les comparaisons d'objets) et du gestionnaire
-  
-2) Application généricité ( Panier d'objets)
+L'application affichera une liste complète de tous les jeux présents dans le catalogue, permettant aux utilisateurs de naviguer facilement entre les différents titres.
+Récupération d’un Jeu Selon Son Nom :
 
+Les utilisateurs pourront rechercher un jeu spécifique en saisissant son nom, et l'application affichera les détails correspondants si le jeu est trouvé.
+Récupération de Tous les Jeux Selon un Genre :
 
-Cette partie concerne le développement d'une application permettant de tester les concepts de généricité (Template) vus en TP. L'application devra permetre un panier <<générique>> (Panier<T>) avec des fonctionnalités d'ajout(sans double), de tri, et de suppression. Le panier sera implémenté en interne à l'aide d'un tableau générique (T tab []), sans utiliser les collections génériques des bibliothèques. Une taille Max pourra être imposée au tableau pour cet exemple, des messages d'erreur seront alors émis si le panier est plein.
-Une application principale devra permettre de tester les fonctionnalités avec au moins un panier de jeux (Classe <<Jeu>> développée en partie 1
-
-### Autres
-* Le rapport devra contenir une partie descriptice de l'application (Cahier des charges) et une analyse sous forme de spécifications fonctionnelles détaillées pour l'application. Les ponts techniques que vous jugerez importants seront également expliqués plus en détails.
-le code devra être commenté
-* devra décrire la classe générique Panier<T> et les contraintes pour l'usage de cette classe et expliqer l'usage du panier pour la classe <<Jeu>>. Le code devra être commenté.
+Les utilisateurs pourront filtrer les jeux par genre, affichant ainsi tous les jeux correspondant à une catégorie particulière (ex. : action, aventure, stratégie).
